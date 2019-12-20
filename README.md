@@ -3,7 +3,9 @@
 Hi and hello to Hoard Overlay Unity package homepage.
 
 ## [QuickStart](./articles/intro.md)
-## [Documentation] (./docs/index.html)
+
+## Offline documentation and API
+You can find the offline docs after downloading the page under ./docs/index.html
 
 ## What is Hoard Overlay ##
 
