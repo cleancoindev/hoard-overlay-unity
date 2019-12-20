@@ -1,0 +1,4 @@
+<map id="UnityEngine.Networking.NetworkSystem.PeerListMessage" name="UnityEngine.Networking.NetworkSystem.PeerListMessage">
+<area shape="rect" id="node1" title="Internal UNET message for sending information about network peers to clients." alt="" coords="5,80,221,121"/>
+<area shape="rect" id="node2" href="$dd/dda/classUnityEngine_1_1Networking_1_1MessageBase.html" title="Network message classes should be derived from this class. These message classes can then be sent usi..." alt="" coords="61,5,166,32"/>
+</map>

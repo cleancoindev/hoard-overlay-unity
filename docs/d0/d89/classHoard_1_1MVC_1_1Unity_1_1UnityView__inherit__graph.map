@@ -1,0 +1,6 @@
+<map id="Hoard.MVC.Unity.UnityView&lt; T &gt;" name="Hoard.MVC.Unity.UnityView&lt; T &gt;">
+<area shape="rect" id="node1" title="Intermidiate class for the proper viewcontroller" alt="" coords="26,155,249,181"/>
+<area shape="rect" id="node2" href="$d6/db7/classHoard_1_1MVC_1_1Unity_1_1UnityViewModel.html" title="Unity Attachable class. Ability to decorate with hoard view controlers; Additional responsibility of ..." alt="" coords="79,80,196,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node4" href="$d6/d3a/interfaceHoard_1_1MVC_1_1IHoardViewController.html" title="Defines basic functionality for the hoard controllers" alt="" coords="141,5,288,32"/>
+</map>

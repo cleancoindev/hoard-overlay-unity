@@ -1,0 +1,4 @@
+<map id="Hoard.MVC.Unity.IPositionChanger" name="Hoard.MVC.Unity.IPositionChanger">
+<area shape="rect" id="node1" title="Interface for the object that can change the position of the content" alt="" coords="6,5,187,47"/>
+<area shape="rect" id="node2" href="$df/db2/classHoard_1_1MVC_1_1Unity_1_1DragableElement.html" title="Class that can be dragged and pass the drag information to other objects that needs it" alt="" coords="5,95,188,136"/>
+</map>

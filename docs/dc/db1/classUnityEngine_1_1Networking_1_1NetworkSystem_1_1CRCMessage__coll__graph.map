@@ -1,0 +1,5 @@
+<map id="UnityEngine.Networking.NetworkSystem.CRCMessage" name="UnityEngine.Networking.NetworkSystem.CRCMessage">
+<area shape="rect" id="node1" title=" " alt="" coords="42,109,258,151"/>
+<area shape="rect" id="node2" href="$dd/dda/classUnityEngine_1_1Networking_1_1MessageBase.html" title="Network message classes should be derived from this class. These message classes can then be sent usi..." alt="" coords="5,13,111,39"/>
+<area shape="rect" id="node3" href="$d5/d5e/structUnityEngine_1_1Networking_1_1NetworkSystem_1_1CRCMessageEntry.html" title=" " alt="" coords="135,5,351,47"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="UnityEngine.Networking.NetworkSystem.ObjectSpawnSceneMessage" name="UnityEngine.Networking.NetworkSystem.ObjectSpawnSceneMessage">
+<area shape="rect" id="node1" title=" " alt="" coords="588,110,827,151"/>
+<area shape="rect" id="node2" href="$dd/dda/classUnityEngine_1_1Networking_1_1MessageBase.html" title="Network message classes should be derived from this class. These message classes can then be sent usi..." alt="" coords="329,5,434,32"/>
+<area shape="rect" id="node3" href="$de/dae/structUnityEngine_1_1Networking_1_1NetworkInstanceId.html" title="This is used to identify networked objects across all participants of a network. It is assigned at ru..." alt="" coords="273,110,489,151"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,117,224,144"/>
+<area shape="rect" id="node5" href="$d9/df8/structUnityEngine_1_1Networking_1_1NetworkSceneId.html" title="This is used to identify networked objects in a scene. These values are allocated in the editor and a..." alt="" coords="273,175,489,217"/>
+<area shape="rect" id="node6" title=" " alt="" coords="12,183,217,209"/>
+</map>

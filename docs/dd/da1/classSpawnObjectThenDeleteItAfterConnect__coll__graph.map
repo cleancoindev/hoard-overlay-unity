@@ -1,0 +1,8 @@
+<map id="SpawnObjectThenDeleteItAfterConnect" name="SpawnObjectThenDeleteItAfterConnect">
+<area shape="rect" id="node1" title=" " alt="" coords="17,365,220,407"/>
+<area shape="rect" id="node2" href="$d2/d85/classSpawningTestBase.html" title=" " alt="" coords="51,289,186,316"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,193,117,219"/>
+<area shape="rect" id="node4" href="$d9/de6/classUnityEngine_1_1Networking_1_1NetworkClient.html" title="This is a network client class used by the networking system. It contains a NetworkConnection that is..." alt="" coords="141,185,357,227"/>
+<area shape="rect" id="node5" href="$de/db4/classUnityEngine_1_1Networking_1_1NetworkConnection.html" title="A High level network connection. This is used for connections from client&#45;to&#45;server and for connectio..." alt="" coords="141,81,357,123"/>
+<area shape="rect" id="node6" title=" " alt="" coords="204,5,295,32"/>
+</map>

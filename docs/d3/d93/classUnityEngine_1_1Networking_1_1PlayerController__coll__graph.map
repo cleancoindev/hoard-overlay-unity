@@ -1,0 +1,5 @@
+<map id="UnityEngine.Networking.PlayerController" name="UnityEngine.Networking.PlayerController">
+<area shape="rect" id="node1" title="This represents a networked player." alt="" coords="11,185,215,227"/>
+<area shape="rect" id="node2" href="$d6/d15/classUnityEngine_1_1Networking_1_1NetworkIdentity.html" title="The NetworkIdentity identifies objects across the network, between server and clients...." alt="" coords="5,81,221,123"/>
+<area shape="rect" id="node3" title=" " alt="" coords="57,5,169,32"/>
+</map>

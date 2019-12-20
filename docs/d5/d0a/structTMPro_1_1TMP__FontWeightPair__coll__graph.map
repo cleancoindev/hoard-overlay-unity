@@ -1,0 +1,8 @@
+<map id="TMPro.TMP_FontWeightPair" name="TMPro.TMP_FontWeightPair">
+<area shape="rect" id="node1" title="Contains the font assets for the regular and italic styles associated with a given font weight." alt="" coords="151,275,341,301"/>
+<area shape="rect" id="node2" href="$d0/d6e/classTMPro_1_1TMP__FontAsset.html" title=" " alt="" coords="166,171,326,197"/>
+<area shape="rect" id="node3" href="$de/d81/classTMPro_1_1TMP__Asset.html" title=" " alt="" coords="19,81,110,108"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node5" href="$df/d3a/structTMPro_1_1FontAssetCreationSettings.html" title=" " alt="" coords="135,81,357,108"/>
+<area shape="rect" id="node6" href="$de/d62/classTMPro_1_1KerningTable.html" title=" " alt="" coords="381,81,522,108"/>
+</map>

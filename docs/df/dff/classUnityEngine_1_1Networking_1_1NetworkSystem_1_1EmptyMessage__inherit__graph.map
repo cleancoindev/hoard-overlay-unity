@@ -1,0 +1,6 @@
+<map id="UnityEngine.Networking.NetworkSystem.EmptyMessage" name="UnityEngine.Networking.NetworkSystem.EmptyMessage">
+<area shape="rect" id="node1" title="A utility class to send a network message with no contents." alt="" coords="159,39,375,80"/>
+<area shape="rect" id="node3" href="$d9/d97/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1NotReadyMessage.html" title="This is passed to handler funtions registered for the SYSTEM_NOT_READY built&#45;in message." alt="" coords="423,5,639,47"/>
+<area shape="rect" id="node4" href="$d8/da8/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1ReadyMessage.html" title="This is passed to handler funtions registered for the SYSTEM_READY built&#45;in message." alt="" coords="423,71,639,112"/>
+<area shape="rect" id="node2" href="$dd/dda/classUnityEngine_1_1Networking_1_1MessageBase.html" title="Network message classes should be derived from this class. These message classes can then be sent usi..." alt="" coords="5,46,111,73"/>
+</map>

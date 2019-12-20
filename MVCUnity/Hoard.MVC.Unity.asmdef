@@ -1,0 +1,15 @@
+{
+    "name": "Hoard.MVC.Unity",
+    "references": [
+        "Unity.TextMeshPro",
+        "Hoard.MVC"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

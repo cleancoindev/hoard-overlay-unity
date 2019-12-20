@@ -1,0 +1,6 @@
+<map id="UnityEngine.Networking.NetworkSystem.OverrideTransformMessage" name="UnityEngine.Networking.NetworkSystem.OverrideTransformMessage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,185,237,227"/>
+<area shape="rect" id="node2" href="$dd/dda/classUnityEngine_1_1Networking_1_1MessageBase.html" title="Network message classes should be derived from this class. These message classes can then be sent usi..." alt="" coords="47,89,153,115"/>
+<area shape="rect" id="node3" href="$de/dae/structUnityEngine_1_1Networking_1_1NetworkInstanceId.html" title="This is used to identify networked objects across all participants of a network. It is assigned at ru..." alt="" coords="177,81,393,123"/>
+<area shape="rect" id="node4" title=" " alt="" coords="176,5,395,32"/>
+</map>

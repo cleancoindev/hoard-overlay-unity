@@ -1,0 +1,14 @@
+{
+  "GameID": null,
+  "GameBackendUrl": "http://",
+  "BCClient": {
+    "Type": "Ethereum",
+    "ClientUrl": "https://ropsten.infura.io/v3/163b19032aba4c199bbdd9c4d4f8d457"
+  },
+  "AccountsDir": null,
+  "GameCenterContract": "0xdc022922bC8f217FAd634e634B9016f26De80606",
+  "ExchangeServiceUrl": null,
+  "HoardAuthServiceUrl": null,
+  "HoardAuthServiceClientId": null,
+  "WhisperAddress": "ws://ws.eth-rpc.hoard.exchange"
+}

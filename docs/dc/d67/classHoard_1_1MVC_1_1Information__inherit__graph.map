@@ -1,0 +1,6 @@
+<map id="Hoard.MVC.Information" name="Hoard.MVC.Information">
+<area shape="rect" id="node1" title="View controller that expose information to the player" alt="" coords="88,155,248,181"/>
+<area shape="rect" id="node2" href="$de/d57/classHoard_1_1MVC_1_1ViewController.html" title="Basic IViewModel class." alt="" coords="115,80,221,107"/>
+<area shape="rect" id="node3" href="$d6/d3a/interfaceHoard_1_1MVC_1_1IHoardViewController.html" title="Defines basic functionality for the hoard controllers" alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="176,5,339,32"/>
+</map>

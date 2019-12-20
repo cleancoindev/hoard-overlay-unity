@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d8/dfe/classTMPro_1_1TMP__TextElement.html" title="Base class for all text elements like Character and SpriteCharacter." alt="" coords="5,31,180,57"/>
+<area shape="rect" id="node2" href="$d7/d91/classTMPro_1_1TMP__Character.html" title="A basic element of text." alt="" coords="245,5,402,32"/>
+<area shape="rect" id="node3" href="$d0/d60/classTMPro_1_1TMP__SpriteCharacter.html" title="A basic element of text representing a pictograph, image, sprite or emoji." alt="" coords="228,56,419,83"/>
+</map>

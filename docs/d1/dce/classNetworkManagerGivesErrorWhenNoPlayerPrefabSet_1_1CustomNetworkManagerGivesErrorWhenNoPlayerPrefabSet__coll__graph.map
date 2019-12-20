@@ -1,0 +1,9 @@
+<map id="NetworkManagerGivesErrorWhenNoPlayerPrefabSet.CustomNetworkManagerGivesErrorWhenNoPlayerPrefabSet" name="NetworkManagerGivesErrorWhenNoPlayerPrefabSet.CustomNetworkManagerGivesErrorWhenNoPlayerPrefabSet">
+<area shape="rect" id="node1" title=" " alt="" coords="1291,55,1561,126"/>
+<area shape="rect" id="node2" href="$d7/d06/classUnityEngine_1_1Networking_1_1NetworkManager.html" title="The NetworkManager is a convenience class for the HLAPI for managing networking systems." alt="" coords="1120,77,1241,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="551,23,663,49"/>
+<area shape="rect" id="node7" href="$d7/d06/classUnityEngine_1_1Networking_1_1NetworkManager.html" title="The NetworkManager is a convenience class for the HLAPI for managing networking systems." alt="" coords="799,70,1015,111"/>
+<area shape="rect" id="node4" href="$d9/de6/classUnityEngine_1_1Networking_1_1NetworkClient.html" title="This is a network client class used by the networking system. It contains a NetworkConnection that is..." alt="" coords="499,94,715,135"/>
+<area shape="rect" id="node5" href="$de/db4/classUnityEngine_1_1Networking_1_1NetworkConnection.html" title="A High level network connection. This is used for connections from client&#45;to&#45;server and for connectio..." alt="" coords="145,94,361,135"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,101,96,128"/>
+</map>

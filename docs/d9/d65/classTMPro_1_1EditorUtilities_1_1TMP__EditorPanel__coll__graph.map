@@ -1,0 +1,41 @@
+<map id="TMPro.EditorUtilities.TMP_EditorPanel" name="TMPro.EditorUtilities.TMP_EditorPanel">
+<area shape="rect" id="node1" title=" " alt="" coords="2076,602,2251,643"/>
+<area shape="rect" id="node2" href="$dc/d45/classTMPro_1_1EditorUtilities_1_1TMP__BaseEditorPanel.html" title=" " alt="" coords="1720,591,1875,617"/>
+<area shape="rect" id="node3" title=" " alt="" coords="1465,564,1521,591"/>
+<area shape="rect" id="node4" href="$d2/d38/classTMPro_1_1TMP__Text.html" title="Base class which contains common properties and functions shared between the TextMeshPro and TextMesh..." alt="" coords="1429,681,1556,708"/>
+<area shape="rect" id="node16" href="$d7/d77/classTMPro_1_1TMP__TextInfo.html" title="Class which contains information about every element contained within the text object." alt="" coords="2089,805,2237,832"/>
+<area shape="rect" id="node17" href="$d0/d45/structTMPro_1_1TMP__LinkInfo.html" title="Structure containing information about individual links contained in the text object." alt="" coords="1724,704,1871,731"/>
+<area shape="rect" id="node22" href="$d8/d90/structTMPro_1_1TMP__WordInfo.html" title="Structure containing information about the individual words contained in the text object." alt="" coords="1721,805,1874,832"/>
+<area shape="rect" id="node5" title=" " alt="" coords="1053,393,1175,420"/>
+<area shape="rect" id="node6" href="$de/d93/structTMPro_1_1TMP__FontStyleStack.html" title="Structure used to track basic XML tags which are binary (on / off)" alt="" coords="1019,271,1209,297"/>
+<area shape="rect" id="node35" href="$d0/d69/structTMPro_1_1WordWrapState.html" title=" " alt="" coords="2348,1003,2507,1029"/>
+<area shape="rect" id="node7" href="$db/df5/structTMPro_1_1TMP__Text_1_1UnicodeChar.html" title=" " alt="" coords="1011,444,1217,471"/>
+<area shape="rect" id="node8" href="$d7/da3/structTMPro_1_1TMP__RichTextTagStack.html" title=" " alt="" coords="1009,1046,1219,1087"/>
+<area shape="rect" id="node9" href="$de/dc1/structTMPro_1_1MaterialReference.html" title=" " alt="" coords="1029,787,1199,813"/>
+<area shape="rect" id="node10" href="$d0/d6e/classTMPro_1_1TMP__FontAsset.html" title=" " alt="" coords="631,855,791,881"/>
+<area shape="rect" id="node23" href="$d9/ddf/structTMPro_1_1TMP__CharacterInfo.html" title="Structure containing information about individual text elements (character or sprites)." alt="" coords="1025,1373,1203,1400"/>
+<area shape="rect" id="node11" href="$de/d81/classTMPro_1_1TMP__Asset.html" title=" " alt="" coords="239,905,330,932"/>
+<area shape="rect" id="node15" href="$d3/d34/classTMPro_1_1TMP__SpriteAsset.html" title=" " alt="" coords="627,1000,795,1027"/>
+<area shape="rect" id="node12" title=" " alt="" coords="5,779,124,805"/>
+<area shape="rect" id="node29" href="$d0/d7e/classTMPro_1_1TMP__ColorGradient.html" title=" " alt="" coords="420,445,600,472"/>
+<area shape="rect" id="node13" href="$df/d3a/structTMPro_1_1FontAssetCreationSettings.html" title=" " alt="" coords="173,855,396,881"/>
+<area shape="rect" id="node14" href="$de/d62/classTMPro_1_1KerningTable.html" title=" " alt="" coords="214,804,355,831"/>
+<area shape="rect" id="node18" href="$dd/d3e/structTMPro_1_1TMP__PageInfo.html" title=" " alt="" coords="1721,919,1873,945"/>
+<area shape="rect" id="node19" href="$df/d37/structTMPro_1_1TMP__LineInfo.html" title="Structure which contains information about the individual lines of text." alt="" coords="1724,68,1871,95"/>
+<area shape="rect" id="node20" href="$d6/dd6/structTMPro_1_1Extents.html" title=" " alt="" coords="1059,68,1169,95"/>
+<area shape="rect" id="node21" href="$d9/d96/structTMPro_1_1TMP__MeshInfo.html" title="Structure which contains the vertex attributes (geometry) of the text object." alt="" coords="1720,755,1875,781"/>
+<area shape="rect" id="node24" href="$d0/d9b/structTMPro_1_1TMP__Vertex.html" title=" " alt="" coords="642,1373,781,1400"/>
+<area shape="rect" id="node25" href="$d8/dfe/classTMPro_1_1TMP__TextElement.html" title="Base class for all text elements like Character and SpriteCharacter." alt="" coords="624,727,799,753"/>
+<area shape="rect" id="node26" href="$d7/da3/structTMPro_1_1TMP__RichTextTagStack.html" title=" " alt="" coords="1009,163,1219,205"/>
+<area shape="rect" id="node27" href="$d6/dc5/structTMPro_1_1VertexGradient.html" title="TMP custom data type to represent 32 bit characters." alt="" coords="1038,837,1190,864"/>
+<area shape="rect" id="node28" href="$d7/da3/structTMPro_1_1TMP__RichTextTagStack.html" title=" " alt="" coords="1009,981,1219,1022"/>
+<area shape="rect" id="node30" href="$d7/da3/structTMPro_1_1TMP__RichTextTagStack.html" title=" " alt="" coords="1009,1111,1219,1153"/>
+<area shape="rect" id="node31" href="$d7/da3/structTMPro_1_1TMP__RichTextTagStack.html" title=" " alt="" coords="1009,1177,1219,1218"/>
+<area shape="rect" id="node32" href="$da/d53/classTMPro_1_1TMP__SpriteAnimator.html" title=" " alt="" coords="1021,545,1207,572"/>
+<area shape="rect" id="node33" title=" " alt="" coords="655,545,767,572"/>
+<area shape="rect" id="node34" href="$d7/da3/structTMPro_1_1TMP__RichTextTagStack.html" title=" " alt="" coords="1009,1242,1219,1283"/>
+<area shape="rect" id="node36" href="$d7/da3/structTMPro_1_1TMP__RichTextTagStack.html" title=" " alt="" coords="1009,1307,1219,1349"/>
+<area shape="rect" id="node37" href="$d7/d13/structTMPro_1_1RichTextTagAttribute.html" title=" " alt="" coords="1019,495,1209,521"/>
+<area shape="rect" id="node38" href="$d7/d91/classTMPro_1_1TMP__Character.html" title="A basic element of text." alt="" coords="1035,596,1193,623"/>
+<area shape="rect" id="node39" href="$d8/dfe/classTMPro_1_1TMP__TextElement.html" title="Base class for all text elements like Character and SpriteCharacter." alt="" coords="646,596,777,623"/>
+</map>

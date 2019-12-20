@@ -1,0 +1,6 @@
+<map id="Hoard.MVC.Unity.SelectableButton" name="Hoard.MVC.Unity.SelectableButton">
+<area shape="rect" id="node1" title="Button that can be selected in the context of the content lists This button resizes when selected" alt="" coords="31,80,222,121"/>
+<area shape="rect" id="node4" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_carousel_button.html" title="Special case for the selectable button used with carousel" alt="" coords="35,169,218,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node3" href="$interface_hoard_1_1_m_v_c_1_1_unity_1_1_i_selected_user.html" title="Internal selection interface for carousel" alt="" coords="141,5,246,32"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="UnityEngine.Networking.NetworkLobbyManager" name="UnityEngine.Networking.NetworkLobbyManager">
+<area shape="rect" id="node1" title="This is a specialized NetworkManager that includes a networked lobby." alt="" coords="1449,71,1665,113"/>
+<area shape="rect" id="node2" href="$d7/d06/classUnityEngine_1_1Networking_1_1NetworkManager.html" title="The NetworkManager is a convenience class for the HLAPI for managing networking systems." alt="" coords="1167,107,1289,133"/>
+<area shape="rect" id="node3" title=" " alt="" coords="551,56,663,83"/>
+<area shape="rect" id="node7" href="$d7/d06/classUnityEngine_1_1Networking_1_1NetworkManager.html" title="The NetworkManager is a convenience class for the HLAPI for managing networking systems." alt="" coords="799,146,1015,187"/>
+<area shape="rect" id="node9" href="$d1/d59/classUnityEngine_1_1Networking_1_1NetworkBehaviour.html" title="Base class which should be inherited by scripts which contain networking functionality." alt="" coords="842,5,971,32"/>
+<area shape="rect" id="node4" href="$d9/de6/classUnityEngine_1_1Networking_1_1NetworkClient.html" title="This is a network client class used by the networking system. It contains a NetworkConnection that is..." alt="" coords="499,179,715,221"/>
+<area shape="rect" id="node5" href="$de/db4/classUnityEngine_1_1Networking_1_1NetworkConnection.html" title="A High level network connection. This is used for connections from client&#45;to&#45;server and for connectio..." alt="" coords="145,179,361,221"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,187,96,213"/>
+<area shape="rect" id="node8" href="$d7/dbf/classUnityEngine_1_1Networking_1_1NetworkLobbyPlayer.html" title="This component works in conjunction with the NetworkLobbyManager to make up the multiplayer lobby sys..." alt="" coords="1120,19,1336,61"/>
+</map>

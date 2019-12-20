@@ -1,0 +1,4 @@
+<map id="Hoard.MVC.Unity.UnitySettingsPersistency" name="Hoard.MVC.Unity.UnitySettingsPersistency">
+<area shape="rect" id="node1" title="Implements ISettingsProvider for the nees of the unity." alt="" coords="5,80,215,121"/>
+<area shape="rect" id="node2" href="$interface_hoard_1_1_m_v_c_1_1_i_settings_provider.html" title="Provides engine / platform specific implementation of data storage" alt="" coords="49,5,171,32"/>
+</map>

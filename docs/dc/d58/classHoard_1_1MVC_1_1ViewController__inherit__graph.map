@@ -1,0 +1,19 @@
+<map id="Hoard.MVC.ViewController" name="Hoard.MVC.ViewController">
+<area shape="rect" id="node1" title="Basic IViewModel class." alt="" coords="216,284,396,311"/>
+<area shape="rect" id="node4" href="$d6/d63/classHoard_1_1MVC_1_1AccountOptions.html" title="This controller is in charge of redirecting or setting the account options." alt="" coords="449,5,637,32"/>
+<area shape="rect" id="node5" href="$dd/daa/classHoard_1_1MVC_1_1ChangePassword.html" title="Controller for the changing user passwords" alt="" coords="444,56,643,83"/>
+<area shape="rect" id="node6" href="$d5/d00/classHoard_1_1MVC_1_1CreateUser.html" title="Controller in charge of creating new user profile" alt="" coords="462,107,625,133"/>
+<area shape="rect" id="node7" href="$d4/d34/classHoard_1_1MVC_1_1CurrentUser.html" title="Opens and exposes information about the currently logged user" alt="" coords="460,157,627,184"/>
+<area shape="rect" id="node8" href="$d9/da1/classHoard_1_1MVC_1_1ExportAccount.html" title="Controller that handles the communication between the user and the export procedure" alt="" coords="453,208,634,235"/>
+<area shape="rect" id="node9" href="$d0/ddc/classHoard_1_1MVC_1_1ImportAccount.html" title="Interrmidiate between the Import procedure and the user view" alt="" coords="453,259,633,285"/>
+<area shape="rect" id="node10" href="$d4/dd9/classHoard_1_1MVC_1_1Information.html" title="View controller that expose information to the player" alt="" coords="463,309,623,336"/>
+<area shape="rect" id="node11" href="$db/d6e/classHoard_1_1MVC_1_1ListUsers.html" title="Base for user select and users management list" alt="" coords="468,360,619,387"/>
+<area shape="rect" id="node13" href="$dc/d3b/classHoard_1_1MVC_1_1ProvidePassword.html" title="Controller that recives and validates users profile decoding credentials" alt="" coords="445,411,642,437"/>
+<area shape="rect" id="node15" href="$d2/d62/classHoard_1_1MVC_1_1RenameUser.html" title="Rename User controller" alt="" coords="457,461,629,488"/>
+<area shape="rect" id="node16" href="$d3/de6/classHoard_1_1MVC_1_1WaitForTask.html" title="Small controller that opens when user has to wait for other action to finish" alt="" coords="458,512,629,539"/>
+<area shape="rect" id="node17" href="$de/d98/classHoard_1_1MVC_1_1YesNoPopup.html" title="Popup shown when user have to decide on the following action" alt="" coords="457,563,629,589"/>
+<area shape="rect" id="node2" href="$d6/d3a/interfaceHoard_1_1MVC_1_1IHoardViewController.html" title="Defines basic functionality for the hoard controllers" alt="" coords="13,259,160,285"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,309,168,336"/>
+<area shape="rect" id="node12" href="$db/d7d/classHoard_1_1MVC_1_1UsersOverview.html" title="Controler that is used to list user and allow to import or create new one" alt="" coords="691,360,876,387"/>
+<area shape="rect" id="node14" href="$d1/dd0/classHoard_1_1MVC_1_1LoginUser.html" title="Login user controller" alt="" coords="706,411,861,437"/>
+</map>

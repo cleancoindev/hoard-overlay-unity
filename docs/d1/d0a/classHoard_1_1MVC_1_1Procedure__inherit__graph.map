@@ -1,0 +1,6 @@
+<map id="Hoard.MVC.Procedure" name="Hoard.MVC.Procedure">
+<area shape="rect" id="node1" title="Base object for the import and export procedure" alt="" coords="132,80,287,107"/>
+<area shape="rect" id="node3" href="$dc/dde/classHoard_1_1MVC_1_1ExportProcedure.html" title="Encapsulates the export procedure of the user accounts" alt="" coords="5,155,197,181"/>
+<area shape="rect" id="node4" href="$d2/d99/classHoard_1_1MVC_1_1ImportProcedure.html" title="Step by step procedure to user profile to the other user machine" alt="" coords="222,155,413,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="128,5,291,32"/>
+</map>

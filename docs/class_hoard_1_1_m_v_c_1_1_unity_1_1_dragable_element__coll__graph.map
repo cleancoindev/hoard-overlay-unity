@@ -1,0 +1,9 @@
+<map id="Hoard.MVC.Unity.DragableElement" name="Hoard.MVC.Unity.DragableElement">
+<area shape="rect" id="node1" title="Class that can be dragged and pass the drag information to other objects that needs it" alt="" coords="185,125,368,166"/>
+<area shape="rect" id="node2" title=" " alt="" coords="15,5,127,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,56,137,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="22,107,121,133"/>
+<area shape="rect" id="node5" title=" " alt="" coords="10,157,133,184"/>
+<area shape="rect" id="node6" href="$interface_hoard_1_1_m_v_c_1_1_unity_1_1_i_velocity_provider.html" title="Interface for the object that have a velocity attribute" alt="" coords="11,208,132,235"/>
+<area shape="rect" id="node7" href="$interface_hoard_1_1_m_v_c_1_1_unity_1_1_i_position_changer.html" title="Interface for the object that can change the position of the content" alt="" coords="10,259,133,285"/>
+</map>

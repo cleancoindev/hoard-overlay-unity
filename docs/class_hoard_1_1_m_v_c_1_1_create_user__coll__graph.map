@@ -1,0 +1,6 @@
+<map id="Hoard.MVC.CreateUser" name="Hoard.MVC.CreateUser">
+<area shape="rect" id="node1" title="Controller in charge of creating new user profile" alt="" coords="87,155,249,181"/>
+<area shape="rect" id="node2" href="$class_hoard_1_1_m_v_c_1_1_view_controller.html" title="Basic IViewModel class." alt="" coords="115,80,221,107"/>
+<area shape="rect" id="node3" href="$interface_hoard_1_1_m_v_c_1_1_i_hoard_view_controller.html" title="Defines basic functionality for the hoard controllers" alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="176,5,339,32"/>
+</map>

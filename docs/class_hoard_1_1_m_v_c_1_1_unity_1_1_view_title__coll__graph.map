@@ -1,0 +1,6 @@
+<map id="Hoard.MVC.Unity.ViewTitle" name="Hoard.MVC.Unity.ViewTitle">
+<area shape="rect" id="node1" title="UI Component that displays viewcontroller name" alt="" coords="5,185,189,212"/>
+<area shape="rect" id="node2" title=" " alt="" coords="20,5,132,32"/>
+<area shape="rect" id="node3" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_unity_view_model.html" title="Unity Attachable class. Ability to decorate with hoard view controlers; Additional responsibility of ..." alt="" coords="114,81,305,123"/>
+<area shape="rect" id="node4" href="$interface_hoard_1_1_m_v_c_1_1_i_hoard_view_controller.html" title="Defines basic functionality for the hoard controllers" alt="" coords="156,5,303,32"/>
+</map>

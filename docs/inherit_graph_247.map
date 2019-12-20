@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,274,136,301"/>
+<area shape="rect" id="node2" href="$d8/d25/classUnityEngine_1_1TestTools_1_1Utils_1_1ColorEqualityComparer.html" title=" " alt="" coords="209,5,400,47"/>
+<area shape="rect" id="node3" href="$de/d8f/classUnityEngine_1_1TestTools_1_1Utils_1_1FloatEqualityComparer.html" title=" " alt="" coords="209,71,400,112"/>
+<area shape="rect" id="node4" href="$de/de6/classUnityEngine_1_1TestTools_1_1Utils_1_1QuaternionEqualityComparer.html" title=" " alt="" coords="209,136,400,177"/>
+<area shape="rect" id="node5" href="$de/d86/classUnityEngine_1_1TestTools_1_1Utils_1_1Vector2ComparerWithEqualsOperator.html" title=" " alt="" coords="184,201,425,243"/>
+<area shape="rect" id="node6" href="$dc/d5a/classUnityEngine_1_1TestTools_1_1Utils_1_1Vector2EqualityComparer.html" title=" " alt="" coords="209,267,400,308"/>
+<area shape="rect" id="node7" href="$d8/d62/classUnityEngine_1_1TestTools_1_1Utils_1_1Vector3ComparerWithEqualsOperator.html" title=" " alt="" coords="184,332,425,373"/>
+<area shape="rect" id="node8" href="$db/d8a/classUnityEngine_1_1TestTools_1_1Utils_1_1Vector3EqualityComparer.html" title=" " alt="" coords="209,397,400,439"/>
+<area shape="rect" id="node9" href="$d9/d3d/classUnityEngine_1_1TestTools_1_1Utils_1_1Vector4ComparerWithEqualsOperator.html" title=" " alt="" coords="184,463,425,504"/>
+<area shape="rect" id="node10" href="$d2/d95/classUnityEngine_1_1TestTools_1_1Utils_1_1Vector4EqualityComparer.html" title=" " alt="" coords="209,528,400,569"/>
+</map>

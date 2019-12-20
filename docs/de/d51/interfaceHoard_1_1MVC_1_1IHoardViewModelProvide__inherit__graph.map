@@ -1,0 +1,4 @@
+<map id="Hoard.MVC.IHoardViewModelProvide" name="Hoard.MVC.IHoardViewModelProvide">
+<area shape="rect" id="node1" title="If controler needs some context or be decorated user can create the provider that will do all the sid..." alt="" coords="13,5,212,47"/>
+<area shape="rect" id="node2" href="$d2/d94/classHoard_1_1MVC_1_1Unity_1_1UnityControlerProvider.html" title="Provides the controlers decorated with MonoViewControler Automatically searches for the all MonoViewC..." alt="" coords="5,95,220,136"/>
+</map>

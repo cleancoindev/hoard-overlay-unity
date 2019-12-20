@@ -1,0 +1,7 @@
+<map id="Hoard.MVC.ListUsers" name="Hoard.MVC.ListUsers">
+<area shape="rect" id="node1" title="Base for user select and users management list" alt="" coords="94,185,245,212"/>
+<area shape="rect" id="node2" href="$class_hoard_1_1_m_v_c_1_1_view_controller.html" title="Basic IViewModel class." alt="" coords="29,89,136,115"/>
+<area shape="rect" id="node3" href="$interface_hoard_1_1_m_v_c_1_1_i_hoard_view_controller.html" title="Defines basic functionality for the hoard controllers" alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="176,5,339,32"/>
+<area shape="rect" id="node5" href="$interface_hoard_1_1_profile_utilities_1_1_i_profiles_management.html" title="Implementation of this interface is responsible of tracking the currently signed user and decoding th..." alt="" coords="160,81,355,123"/>
+</map>

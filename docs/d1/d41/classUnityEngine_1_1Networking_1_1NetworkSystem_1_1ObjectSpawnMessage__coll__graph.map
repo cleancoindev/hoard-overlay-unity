@@ -1,0 +1,7 @@
+<map id="UnityEngine.Networking.NetworkSystem.ObjectSpawnMessage" name="UnityEngine.Networking.NetworkSystem.ObjectSpawnMessage">
+<area shape="rect" id="node1" title=" " alt="" coords="585,110,801,151"/>
+<area shape="rect" id="node2" href="$dd/dda/classUnityEngine_1_1Networking_1_1MessageBase.html" title="Network message classes should be derived from this class. These message classes can then be sent usi..." alt="" coords="329,5,434,32"/>
+<area shape="rect" id="node3" href="$de/dae/structUnityEngine_1_1Networking_1_1NetworkInstanceId.html" title="This is used to identify networked objects across all participants of a network. It is assigned at ru..." alt="" coords="273,110,489,151"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,117,224,144"/>
+<area shape="rect" id="node5" href="$df/d28/structUnityEngine_1_1Networking_1_1NetworkHash128.html" title="A 128 bit number used to represent assets in a networking context." alt="" coords="273,175,489,217"/>
+</map>

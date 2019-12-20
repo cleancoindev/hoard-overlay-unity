@@ -1,0 +1,17 @@
+{
+    "name": "HoardMVCEditor",
+    "references": [
+        "GUID:b9c63c8df49144c459dd878a1b2a3cad",
+        "GUID:247856356e332c74ebdf55a74d3152a5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

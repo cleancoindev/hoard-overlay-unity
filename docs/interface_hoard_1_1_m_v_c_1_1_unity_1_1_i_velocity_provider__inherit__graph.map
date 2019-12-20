@@ -1,0 +1,4 @@
+<map id="Hoard.MVC.Unity.IVelocityProvider" name="Hoard.MVC.Unity.IVelocityProvider">
+<area shape="rect" id="node1" title="Interface for the object that have a velocity attribute" alt="" coords="6,5,187,47"/>
+<area shape="rect" id="node2" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_dragable_element.html" title="Class that can be dragged and pass the drag information to other objects that needs it" alt="" coords="5,95,188,136"/>
+</map>

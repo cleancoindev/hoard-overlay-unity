@@ -1,0 +1,7 @@
+<map id="Hoard.MVC.LoginUser" name="Hoard.MVC.LoginUser">
+<area shape="rect" id="node1" title="Login user controller" alt="" coords="91,229,245,256"/>
+<area shape="rect" id="node2" href="$dc/d3b/classHoard_1_1MVC_1_1ProvidePassword.html" title="Controller that recives and validates users profile decoding credentials" alt="" coords="106,155,230,181"/>
+<area shape="rect" id="node3" href="$de/d57/classHoard_1_1MVC_1_1ViewController.html" title="Basic IViewModel class." alt="" coords="115,80,221,107"/>
+<area shape="rect" id="node4" href="$d6/d3a/interfaceHoard_1_1MVC_1_1IHoardViewController.html" title="Defines basic functionality for the hoard controllers" alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="176,5,339,32"/>
+</map>

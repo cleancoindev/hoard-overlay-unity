@@ -1,0 +1,13 @@
+<map id="SpawningTestBase" name="SpawningTestBase">
+<area shape="rect" id="node1" title=" " alt="" coords="165,253,300,279"/>
+<area shape="rect" id="node3" href="$df/daa/classLocalClientSpawnsMultiplePlayers.html" title=" " alt="" coords="365,5,544,47"/>
+<area shape="rect" id="node4" href="$db/df2/classLocalClientSpawnsObjectAfterConnect.html" title=" " alt="" coords="355,71,555,112"/>
+<area shape="rect" id="node5" href="$d5/d6f/classLocalClientSpawnsObjectBeforeConnect.html" title=" " alt="" coords="349,136,560,177"/>
+<area shape="rect" id="node6" href="$d8/db5/classNetworkObserversObjectsWork.html" title=" " alt="" coords="351,202,558,229"/>
+<area shape="rect" id="node7" href="$d4/d2c/classSpawnObjectAfterConnect.html" title=" " alt="" coords="366,253,543,279"/>
+<area shape="rect" id="node8" href="$de/dc6/classSpawnObjectBeforeConnect.html" title=" " alt="" coords="361,303,548,330"/>
+<area shape="rect" id="node9" href="$dd/d30/classSpawnObjectOnServerOnly.html" title=" " alt="" coords="363,354,546,381"/>
+<area shape="rect" id="node10" href="$d4/d73/classSpawnObjectThenDeleteItAfterConnect.html" title=" " alt="" coords="353,405,556,447"/>
+<area shape="rect" id="node11" href="$d9/d97/classSpawnObjectThenDeleteItBeforeConnect.html" title=" " alt="" coords="348,471,561,512"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,253,117,279"/>
+</map>

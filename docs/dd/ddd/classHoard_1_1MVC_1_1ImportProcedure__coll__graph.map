@@ -1,0 +1,7 @@
+<map id="Hoard.MVC.ImportProcedure" name="Hoard.MVC.ImportProcedure">
+<area shape="rect" id="node1" title="Step by step procedure to user profile to the other user machine" alt="" coords="103,199,294,225"/>
+<area shape="rect" id="node2" href="$d0/d10/classHoard_1_1MVC_1_1Procedure.html" title="Base object for the import and export procedure" alt="" coords="233,102,314,129"/>
+<area shape="rect" id="node3" title=" " alt="" coords="47,5,209,32"/>
+<area shape="rect" id="node5" href="$de/dd5/classHoard_1_1MVC_1_1Utilities_1_1CredentialInputValidator.html" title="Observes the internal string input and shows the result of the validation funcition that was passed" alt="" coords="5,95,208,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="240,5,307,32"/>
+</map>

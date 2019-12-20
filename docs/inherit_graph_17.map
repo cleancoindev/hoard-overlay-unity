@@ -1,0 +1,64 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="49,71,181,98"/>
+<area shape="rect" id="node2" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_dragable_element.html" title="Class that can be dragged and pass the drag information to other objects that needs it" alt="" coords="293,140,476,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="53,290,176,317"/>
+<area shape="rect" id="node4" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_go_to_element.html" title="Switches the active UI element on user action Example would be &#39;tab&#39; around the elements or move forw..." alt="" coords="279,290,490,317"/>
+<area shape="rect" id="node5" title=" " alt="" coords="65,122,164,149"/>
+<area shape="rect" id="node6" title=" " alt="" coords="53,173,176,199"/>
+<area shape="rect" id="node7" href="$interface_hoard_1_1_m_v_c_1_1_i_hoard_view_controller.html" title="Defines basic functionality for the hoard controllers" alt="" coords="5,1739,224,1766"/>
+<area shape="rect" id="node8" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_unity_view_model.html" title="Unity Attachable class. Ability to decorate with hoard view controlers; Additional responsibility of ..." alt="" coords="289,1523,480,1564"/>
+<area shape="rect" id="node10" href="$class_hoard_1_1_m_v_c_1_1_view_controller.html" title="Basic IViewModel class." alt="" coords="295,1831,475,1858"/>
+<area shape="rect" id="node9" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_unity_view.html" title="Intermidiate class for the proper viewcontroller" alt="" coords="545,1502,768,1529"/>
+<area shape="rect" id="node11" href="$class_hoard_1_1_m_v_c_1_1_account_options.html" title="This controller is in charge of redirecting or setting the account options." alt="" coords="563,2110,751,2137"/>
+<area shape="rect" id="node12" href="$class_hoard_1_1_m_v_c_1_1_change_password.html" title="Controller for the changing user passwords" alt="" coords="557,1553,756,1579"/>
+<area shape="rect" id="node13" href="$class_hoard_1_1_m_v_c_1_1_create_user.html" title="Controller in charge of creating new user profile" alt="" coords="575,1603,738,1630"/>
+<area shape="rect" id="node14" href="$class_hoard_1_1_m_v_c_1_1_current_user.html" title="Opens and exposes information about the currently logged user" alt="" coords="573,1654,740,1681"/>
+<area shape="rect" id="node15" href="$class_hoard_1_1_m_v_c_1_1_export_account.html" title="Controller that handles the communication between the user and the export procedure" alt="" coords="566,1705,747,1731"/>
+<area shape="rect" id="node16" href="$class_hoard_1_1_m_v_c_1_1_import_account.html" title="Interrmidiate between the Import procedure and the user view" alt="" coords="567,1755,747,1782"/>
+<area shape="rect" id="node17" href="$class_hoard_1_1_m_v_c_1_1_information.html" title="View controller that expose information to the player" alt="" coords="577,1806,737,1833"/>
+<area shape="rect" id="node18" href="$class_hoard_1_1_m_v_c_1_1_list_users.html" title="Base for user select and users management list" alt="" coords="581,1857,732,1883"/>
+<area shape="rect" id="node20" href="$class_hoard_1_1_m_v_c_1_1_provide_password.html" title="Controller that recives and validates users profile decoding credentials" alt="" coords="558,1907,755,1934"/>
+<area shape="rect" id="node22" href="$class_hoard_1_1_m_v_c_1_1_rename_user.html" title="Rename User controller" alt="" coords="571,1958,743,1985"/>
+<area shape="rect" id="node23" href="$class_hoard_1_1_m_v_c_1_1_wait_for_task.html" title="Small controller that opens when user has to wait for other action to finish" alt="" coords="571,2009,742,2035"/>
+<area shape="rect" id="node24" href="$class_hoard_1_1_m_v_c_1_1_yes_no_popup.html" title="Popup shown when user have to decide on the following action" alt="" coords="571,2059,743,2086"/>
+<area shape="rect" id="node19" href="$class_hoard_1_1_m_v_c_1_1_users_overview.html" title="Controler that is used to list user and allow to import or create new one" alt="" coords="816,1857,1001,1883"/>
+<area shape="rect" id="node21" href="$class_hoard_1_1_m_v_c_1_1_login_user.html" title="Login user controller" alt="" coords="831,1907,986,1934"/>
+<area shape="rect" id="node25" href="$interface_hoard_1_1_m_v_c_1_1_i_hoard_view_model_provide.html" title="If controler needs some context or be decorated user can create the provider that will do all the sid..." alt="" coords="15,1224,214,1265"/>
+<area shape="rect" id="node26" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_unity_controler_provider.html" title="Provides the controlers decorated with MonoViewControler Automatically searches for the all MonoViewC..." alt="" coords="277,1224,492,1265"/>
+<area shape="rect" id="node27" href="$interface_hoard_1_1_m_v_c_1_1_utilities_1_1_i_lockit_text_provider.html" title="Interface for the object that can provided the lockit string to the lockit" alt="" coords="23,1289,206,1331"/>
+<area shape="rect" id="node28" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_hoard_lockit_unity.html" title="Reads json lockit from TextAsset and load it to lockit" alt="" coords="285,1289,485,1331"/>
+<area shape="rect" id="node29" title=" " alt="" coords="33,2219,196,2246"/>
+<area shape="rect" id="node30" href="$class_hoard_1_1_m_v_c_1_1_procedure.html" title="Base object for the import and export procedure" alt="" coords="307,2161,462,2187"/>
+<area shape="rect" id="node33" href="$class_hoard_1_1_m_v_c_1_1_utilities_1_1_credential_input_validator.html" title="Observes the internal string input and shows the result of the validation funcition that was passed" alt="" coords="283,2277,486,2319"/>
+<area shape="rect" id="node34" href="$interface_hoard_1_1_profile_utilities_1_1_i_profiles_management.html" title="Implementation of this interface is responsible of tracking the currently signed user and decoding th..." alt="" coords="287,2343,482,2384"/>
+<area shape="rect" id="node36" href="$class_hoard_1_1_profile_utilities_1_1_property_changed_notifier.html" title="Helper base class that simplifies using the INotifyPropertyChanged interface" alt="" coords="287,2212,482,2253"/>
+<area shape="rect" id="node31" href="$class_hoard_1_1_m_v_c_1_1_export_procedure.html" title="Encapsulates the export procedure of the user accounts" alt="" coords="561,2211,753,2238"/>
+<area shape="rect" id="node32" href="$class_hoard_1_1_m_v_c_1_1_import_procedure.html" title="Step by step procedure to user profile to the other user machine" alt="" coords="561,2161,752,2187"/>
+<area shape="rect" id="node35" href="$class_hoard_1_1_profile_utilities_1_1_profiles_management.html" title="Creates and stores password encrypted profiles" alt="" coords="561,2303,752,2344"/>
+<area shape="rect" id="node37" title=" " alt="" coords="75,1534,154,1561"/>
+<area shape="rect" id="node38" href="$class_hoard_1_1_m_v_c_1_1_binding_1_1_reflection_1_1_observator_property.html" title="Property that will be updated to the observed value" alt="" coords="282,1588,487,1629"/>
+<area shape="rect" id="node39" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_user_bar.html" title="User bar keeps track of the current logged user Profile and provides information on current Hoard Tok..." alt="" coords="295,1471,474,1498"/>
+<area shape="rect" id="node40" title=" " alt="" coords="313,1421,456,1447"/>
+<area shape="rect" id="node41" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_carousel_button.html" title="Special case for the selectable button used with carousel" alt="" coords="565,1381,748,1423"/>
+<area shape="rect" id="node42" href="$interface_hoard_1_1_m_v_c_1_1_unity_1_1_i_position_changer.html" title="Interface for the object that can change the position of the content" alt="" coords="24,224,205,265"/>
+<area shape="rect" id="node43" href="$interface_hoard_1_1_m_v_c_1_1_unity_1_1_i_selected_user.html" title="Internal selection interface for carousel" alt="" coords="8,1362,221,1389"/>
+<area shape="rect" id="node44" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_selectable_button.html" title="Button that can be selected in the context of the content lists This button resizes when selected" alt="" coords="289,1355,480,1396"/>
+<area shape="rect" id="node45" title=" " alt="" coords="61,341,169,367"/>
+<area shape="rect" id="node46" href="$classkeyboard_class.html" title=" " alt="" coords="330,341,439,367"/>
+<area shape="rect" id="node47" href="$interface_hoard_1_1_m_v_c_1_1_unity_1_1_i_velocity_provider.html" title="Interface for the object that have a velocity attribute" alt="" coords="24,5,205,47"/>
+<area shape="rect" id="node48" title=" " alt="" coords="59,837,171,863"/>
+<area shape="rect" id="node49" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_globalback_input.html" title=" " alt="" coords="287,691,482,732"/>
+<area shape="rect" id="node50" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_g_u_i_task_runner.html" title="Gives the task runner an update context" alt="" coords="272,757,497,783"/>
+<area shape="rect" id="node51" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_hoard_log.html" title="Pools the error stream from the hoard sdk and pushes it to the unity log in the safe way...." alt="" coords="291,807,478,834"/>
+<area shape="rect" id="node52" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_hoard_service_initializer.html" title="Starts the connection with the blockchain gateway point" alt="" coords="280,859,489,900"/>
+<area shape="rect" id="node53" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_hoard_unity_prefs.html" title="Class that uses unity preferences to save the aesthetic settings" alt="" coords="287,924,483,965"/>
+<area shape="rect" id="node54" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_my_vertical_navigation.html" title="Helper for enforcing the vertical navigation with the game pads" alt="" coords="289,989,481,1031"/>
+<area shape="rect" id="node55" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_overlay_back.html" title="UI Component that invokes Navigation.GoBackTimes method" alt="" coords="282,1055,487,1082"/>
+<area shape="rect" id="node56" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_rotate_when_moved.html" title="Additional flare for the object movement. It rotates the object a bit when it&#39;s dragged" alt="" coords="283,1107,486,1148"/>
+<area shape="rect" id="node57" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_start_element.html" title="Element that will be forced selected when component become enabled" alt="" coords="281,1173,488,1199"/>
+<area shape="rect" id="node58" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_test_starter.html" title="Example of the script that start whole overlay system." alt="" coords="287,391,482,418"/>
+<area shape="rect" id="node59" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_t_m_p___text___translation.html" title="Class that automatically traslates the Lockit key in the TMP_Text field" alt="" coords="305,443,464,484"/>
+<area shape="rect" id="node60" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_unity_coroutine_handler.html" title=" " alt="" coords="276,508,493,549"/>
+<area shape="rect" id="node61" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_user_list_button.html" title=" " alt="" coords="295,573,474,615"/>
+<area shape="rect" id="node62" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_view_title.html" title="UI Component that displays viewcontroller name" alt="" coords="293,639,477,666"/>
+</map>

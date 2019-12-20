@@ -1,0 +1,5 @@
+<map id="UnityEngine.Networking.NetworkTransformChild" name="UnityEngine.Networking.NetworkTransformChild">
+<area shape="rect" id="node1" title="A component to synchronize the position of child transforms of networked objects." alt="" coords="5,155,221,196"/>
+<area shape="rect" id="node2" href="$d1/d59/classUnityEngine_1_1Networking_1_1NetworkBehaviour.html" title="Base class which should be inherited by scripts which contain networking functionality." alt="" coords="49,80,178,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="57,5,169,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Hoard.ProfileUtilities.ProfilesManagement" name="Hoard.ProfileUtilities.ProfilesManagement">
+<area shape="rect" id="node1" title="Creates and stores password encrypted profiles" alt="" coords="82,155,273,196"/>
+<area shape="rect" id="node2" href="$d4/d1b/classHoard_1_1ProfileUtilities_1_1PropertyChangedNotifier.html" title="Helper base class that simplifies using the INotifyPropertyChanged interface" alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="96,5,259,32"/>
+<area shape="rect" id="node4" href="$d2/dd0/interfaceHoard_1_1ProfileUtilities_1_1IProfilesManagement.html" title="Implementation of this interface is responsible of tracking the currently signed user and decoding th..." alt="" coords="195,80,341,107"/>
+</map>

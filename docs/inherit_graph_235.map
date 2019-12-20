@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,52,39"/>
+<area shape="rect" id="node2" href="$d0/d21/classUnityEngine_1_1Networking_1_1SyncList.html" title="This is the base class for type&#45;specific SyncList classes." alt="" coords="100,5,297,47"/>
+<area shape="rect" id="node3" href="$d4/dff/classUnityEngine_1_1Networking_1_1SyncListStruct.html" title="This class is used for lists of structs that are synchronized from the server to clients." alt="" coords="345,5,543,47"/>
+</map>

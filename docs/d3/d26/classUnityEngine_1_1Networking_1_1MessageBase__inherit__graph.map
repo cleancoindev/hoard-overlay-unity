@@ -1,0 +1,32 @@
+<map id="UnityEngine.Networking.MessageBase" name="UnityEngine.Networking.MessageBase">
+<area shape="rect" id="node1" title="Network message classes should be derived from this class. These message classes can then be sent usi..." alt="" coords="5,821,256,847"/>
+<area shape="rect" id="node2" href="$dd/d45/classConnectLocalClientWorks_1_1TestMessage.html" title=" " alt="" coords="343,5,521,47"/>
+<area shape="rect" id="node3" href="$de/d83/classCSHelloMessage.html" title=" " alt="" coords="370,71,494,98"/>
+<area shape="rect" id="node4" href="$dc/db4/classCSUpdateMessage.html" title=" " alt="" coords="364,122,500,149"/>
+<area shape="rect" id="node5" href="$d0/d34/classHavingManyLocalClientsSimultaneouslyWorks_1_1TestMessage.html" title=" " alt="" coords="304,173,560,215"/>
+<area shape="rect" id="node6" href="$da/d77/classSCUpdateMessage.html" title=" " alt="" coords="364,239,500,266"/>
+<area shape="rect" id="node7" href="$df/dea/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1AddPlayerMessage.html" title="This is passed to handler funtions registered for the AddPlayer built&#45;in message." alt="" coords="324,291,540,332"/>
+<area shape="rect" id="node8" href="$d2/d4e/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1AnimationMessage.html" title=" " alt="" coords="324,356,540,397"/>
+<area shape="rect" id="node9" href="$d8/dde/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1AnimationParametersMessage.html" title=" " alt="" coords="307,421,557,463"/>
+<area shape="rect" id="node10" href="$df/d20/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1AnimationTriggerMessage.html" title=" " alt="" coords="321,487,543,528"/>
+<area shape="rect" id="node11" href="$d7/dcb/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1ClientAuthorityMessage.html" title=" " alt="" coords="324,552,540,593"/>
+<area shape="rect" id="node12" href="$d8/d07/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1CRCMessage.html" title=" " alt="" coords="324,617,540,659"/>
+<area shape="rect" id="node13" href="$de/dae/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1EmptyMessage.html" title="A utility class to send a network message with no contents." alt="" coords="324,683,540,724"/>
+<area shape="rect" id="node16" href="$de/de1/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1ErrorMessage.html" title="This is passed to handler functions registered for the SYSTEM_ERROR built&#45;in message." alt="" coords="324,748,540,789"/>
+<area shape="rect" id="node17" href="$dc/d59/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1IntegerMessage.html" title="A utility class to send simple network messages that only contain an integer." alt="" coords="324,813,540,855"/>
+<area shape="rect" id="node18" href="$d7/dd8/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1LobbyReadyToBeginMessage.html" title=" " alt="" coords="309,879,555,920"/>
+<area shape="rect" id="node19" href="$d8/ddf/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1ObjectDestroyMessage.html" title=" " alt="" coords="324,944,540,985"/>
+<area shape="rect" id="node20" href="$df/d28/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1ObjectSpawnFinishedMessage.html" title=" " alt="" coords="307,1009,557,1051"/>
+<area shape="rect" id="node21" href="$dd/d0e/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1ObjectSpawnMessage.html" title=" " alt="" coords="324,1075,540,1116"/>
+<area shape="rect" id="node22" href="$df/d38/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1ObjectSpawnSceneMessage.html" title=" " alt="" coords="313,1140,551,1181"/>
+<area shape="rect" id="node23" href="$d4/d7f/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1OverrideTransformMessage.html" title=" " alt="" coords="316,1205,548,1247"/>
+<area shape="rect" id="node24" href="$d1/d90/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1OwnerMessage.html" title=" " alt="" coords="324,1271,540,1312"/>
+<area shape="rect" id="node25" href="$d4/d25/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1PeerAuthorityMessage.html" title="Information about a change in authority of a non&#45;player in the same network game." alt="" coords="324,1336,540,1377"/>
+<area shape="rect" id="node26" href="$d9/d00/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1PeerInfoMessage.html" title="Information about another participant in the same network game." alt="" coords="324,1401,540,1443"/>
+<area shape="rect" id="node27" href="$de/d06/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1PeerListMessage.html" title="Internal UNET message for sending information about network peers to clients." alt="" coords="324,1467,540,1508"/>
+<area shape="rect" id="node28" href="$d8/dda/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1ReconnectMessage.html" title="This network message is used when a client reconnect to the new host of a game." alt="" coords="324,1532,540,1573"/>
+<area shape="rect" id="node29" href="$d7/dae/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1RemovePlayerMessage.html" title="This is passed to handler funtions registered for the SYSTEM_REMOVE_PLAYER built&#45;in message." alt="" coords="324,1597,540,1639"/>
+<area shape="rect" id="node30" href="$db/d4e/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1StringMessage.html" title="This is a utility class for simple network messages that contain only a string." alt="" coords="324,1663,540,1704"/>
+<area shape="rect" id="node14" href="$d9/d97/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1NotReadyMessage.html" title="This is passed to handler funtions registered for the SYSTEM_NOT_READY built&#45;in message." alt="" coords="608,651,824,692"/>
+<area shape="rect" id="node15" href="$d8/da8/classUnityEngine_1_1Networking_1_1NetworkSystem_1_1ReadyMessage.html" title="This is passed to handler funtions registered for the SYSTEM_READY built&#45;in message." alt="" coords="608,716,824,757"/>
+</map>

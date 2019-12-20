@@ -1,0 +1,5 @@
+<map id="UnityEngine.Networking.SyncListStruct&lt; T &gt;" name="UnityEngine.Networking.SyncListStruct&lt; T &gt;">
+<area shape="rect" id="node1" title="This class is used for lists of structs that are synchronized from the server to clients." alt="" coords="5,155,203,196"/>
+<area shape="rect" id="node2" href="$d0/d21/classUnityEngine_1_1Networking_1_1SyncList.html" title="This is the base class for type&#45;specific SyncList classes." alt="" coords="51,80,157,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="65,5,143,32"/>
+</map>

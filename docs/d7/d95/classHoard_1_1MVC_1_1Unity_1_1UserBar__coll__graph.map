@@ -1,0 +1,5 @@
+<map id="Hoard.MVC.Unity.UserBar" name="Hoard.MVC.Unity.UserBar">
+<area shape="rect" id="node1" title="User bar keeps track of the current logged user Profile and provides information on current Hoard Tok..." alt="" coords="47,80,225,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="142,5,282,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Hoard.MVC.Utilities.ILockitTextProvider" name="Hoard.MVC.Utilities.ILockitTextProvider">
+<area shape="rect" id="node1" title="Interface for the object that can provided the lockit string to the lockit" alt="" coords="14,5,197,47"/>
+<area shape="rect" id="node2" href="$class_hoard_1_1_m_v_c_1_1_unity_1_1_hoard_lockit_unity.html" title="Reads json lockit from TextAsset and load it to lockit" alt="" coords="5,95,205,136"/>
+</map>

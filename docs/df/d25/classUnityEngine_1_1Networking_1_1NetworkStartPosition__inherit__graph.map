@@ -1,0 +1,4 @@
+<map id="UnityEngine.Networking.NetworkStartPosition" name="UnityEngine.Networking.NetworkStartPosition">
+<area shape="rect" id="node1" title="This component is used to make a gameObject a starting position for spawning player objects in multip..." alt="" coords="5,80,221,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="57,5,169,32"/>
+</map>

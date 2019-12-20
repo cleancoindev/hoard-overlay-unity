@@ -1,0 +1,4 @@
+<map id="Hoard.MVC.Unity.HoardLog" name="Hoard.MVC.Unity.HoardLog">
+<area shape="rect" id="node1" title="Pools the error stream from the hoard sdk and pushes it to the unity log in the safe way...." alt="" coords="5,80,192,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="43,5,155,32"/>
+</map>

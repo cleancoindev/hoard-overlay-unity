@@ -1,0 +1,13 @@
+<map id="UnityEngine.Networking.NetworkManager" name="UnityEngine.Networking.NetworkManager">
+<area shape="rect" id="node1" title="The NetworkManager is a convenience class for the HLAPI for managing networking systems." alt="" coords="165,320,381,361"/>
+<area shape="rect" id="node3" href="$da/dda/classCustomNetworkManagerWithCallbacks.html" title=" " alt="" coords="469,5,663,47"/>
+<area shape="rect" id="node4" href="$db/dac/classNetworkManagerGivesErrorWhenNoPlayerPrefabSet_1_1CustomNetworkManagerGivesErrorWhenNoPlayerPrefabSet.html" title=" " alt="" coords="431,71,701,141"/>
+<area shape="rect" id="node5" href="$d7/d2d/classNetworkManagerHandlesLargePacket_1_1NetworkManagerWithLargePacket.html" title=" " alt="" coords="453,166,679,222"/>
+<area shape="rect" id="node6" href="$de/d1a/classNetworkManagerSpawnSpecialPrefab_1_1NetworkManagerSpawnerScript.html" title=" " alt="" coords="442,247,690,288"/>
+<area shape="rect" id="node7" href="$d4/da5/classNetworkManagerStillWorksWhenUserUseStartAndAwake_1_1CustomNetworkManagerWithAwakeAndStart.html" title=" " alt="" coords="441,313,691,369"/>
+<area shape="rect" id="node8" href="$d3/d92/classNetworkManagerStopServerAndClientWorks_1_1TestNetworkManagerStop.html" title=" " alt="" coords="429,393,703,435"/>
+<area shape="rect" id="node9" href="$d7/d7e/classPlayWithReadyState_1_1PlayWithReadyStateNetworkManager.html" title=" " alt="" coords="465,459,667,500"/>
+<area shape="rect" id="node10" href="$d4/d09/classSettingNetworkStartPositionWorks_1_1TestNetworkManagerStartPos.html" title=" " alt="" coords="446,524,686,565"/>
+<area shape="rect" id="node11" href="$d1/dca/classUnityEngine_1_1Networking_1_1NetworkLobbyManager.html" title="This is a specialized NetworkManager that includes a networked lobby." alt="" coords="458,589,674,631"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,327,117,354"/>
+</map>
