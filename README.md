@@ -3,6 +3,7 @@
 Hi and hello to Hoard Overlay Unity package homepage.
 
 ## [QuickStart](./articles/intro.md)
+## [Documentation] (./docs/index.html)
 
 ## What is Hoard Overlay ##
 
