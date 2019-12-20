@@ -16,7 +16,7 @@ Out of the box you get a working scene with overlay that can be used in your pro
 - Create Hoard Profiles
 - Change Hoard Profiles 
 - Store Profiles locally on the user storage
-- Transfer accounts between user devices using Whisper and P2P web-sockets system
+- Transfer accounts between user devices using Whisper
 - Start Hoard Service and display user HRD token amount
 
 ### Supported Input ###
@@ -69,7 +69,7 @@ We stand on position that blockchain technology should be decentralized therefor
 
 ## Profiles Transfer ##
 
-To assure user's privacy with provide you with whisper and websocket way of P2P transfer of encoded profiles. While the profiles are being transfered the passwords should NEVER! be transfered along with them to avoid P2P attack. Procedure is based on the assumption that user has controled physical access to both devices while profile is being transfered.
+To assure user's privacy with provide you with whisper transfer of encoded profiles. While the profiles are being transfered the passwords should NEVER! be transfered along with them to avoid P2P attack. Procedure is based on the assumption that user has controled physical access to both devices while profile is being transfered.
 
 # More information on HoardSDK #
 
