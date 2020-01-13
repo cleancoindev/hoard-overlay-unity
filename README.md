@@ -5,6 +5,9 @@ Hi and hello to Hoard Overlay Unity package homepage.
 ## [API](https://hoard.exchange/hoard-unity-overlay)
 If you need, all API reference is available under this link. 
 
+## Offline documentation and API
+You can find the offline docs after downloading the page under ./docs/index.html
+
 ## What is Hoard Overlay ##
 
 Hoard overlay is a Unity based project that will help you with avoid boiler-plating Hoard Profiles management code.
