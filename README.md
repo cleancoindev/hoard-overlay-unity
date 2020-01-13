@@ -2,7 +2,8 @@
 
 Hi and hello to Hoard Overlay Unity package homepage.
 
-## [QuickStart](./articles/intro.md)
+## [API](https://hoard.exchange/hoard-unity-overlay)
+If you need, all API reference is available under this link. 
 
 ## What is Hoard Overlay ##
 
