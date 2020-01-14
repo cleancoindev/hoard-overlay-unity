@@ -175,7 +175,12 @@ namespace Hoard.MVC
                 JObject profile = (JObject)accountJson[SectionName_Profile];
                 string name = profile["name"].ToString();
                 string adress = profile["address"].ToString();
-                if (ProfilesManagement.Instance.AvailableProfileNames.Any(x => x.userName == name))
+                var sameAccount = ProfilesManagement.Instance.AvailableProfileNames.FirstOrDefault(x => x.ID.ToString() == adress);
+                if (sameAccount != null)
+                {
+                    Navigation.Open(new Information(string.Format("INFO_SAME_KEY".Translated(),sameAccount.userName) , () => {Navigation.GoBack();}));
+                }
+                else if (ProfilesManagement.Instance.AvailableProfileNames.Any(x => x.userName == name))
                 {
                     Navigation.Open(new RenameUser(name, x =>
                     {

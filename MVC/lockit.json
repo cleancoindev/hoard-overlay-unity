@@ -11,7 +11,6 @@
           "HINT_TIMEOUT": "Koniec czasu. Proszę zrestartować procedurę. Masz {0} sekund żeby zsynchronizować swoje urządzenia",
           "HINT_ERROR": "Błąd połączena\nSprawdź swoje połączenie z Internetem i spróbuj ponownie",
           "ACTION_RESET": "Reset <sprite=\"arrow_next\" index=0>",
-          "HINT_EXPORT_READY": "Ready to connect to account exchange service.\n Please start Import account in the other Hoard game",
           "HINT_EXPORT_READY": "Urządzenie gotowe do synchronizacji kont.\n Uruchom 'Import Konta' na drugim urządzeniu",
           "ACTION_DONE": "Gotowe <sprite=\"arrow_next\" index=0>",
           "HINT_INPUT_PIN": "Wpisz następujący PIN na drugim urządzeniu",
@@ -67,7 +66,8 @@
           "BTN_CLOSE" : "Zamknij <sprite=\"arrow_back\" index=0>",
           "HINT_AUTOLOGIN_FAILED" : "Automatyczny login nie powiodło się. Zaloguj się ponownie.",
           "ACTION_UNDERSTAND" : "Zrozumiał(a)em <sprite=\"arrow_next\" index=0>",
-          "INFO_ACCOUNT" : "Ważna Informacja!\nHoard w przeciwieństwie od innych platform nie przechowuje Twoich danych do logowania w żaden sposób. Twój chroniony hasłem profil jest przechowywany na twoich urządzeniach i nie istnieje żadna metoda odzyskania konta lub hasła. Pamiętaj o tym wybierając hasło! Jeśli je stracisz nie będziemy w stanie pomóc Ci w odblokowaniu profilu."
+          "INFO_ACCOUNT" : "Ważna Informacja!\nHoard w przeciwieństwie od innych platform nie przechowuje Twoich danych do logowania w żaden sposób. Twój chroniony hasłem profil jest przechowywany na twoich urządzeniach i nie istnieje żadna metoda odzyskania konta lub hasła. Pamiętaj o tym wybierając hasło! Jeśli je stracisz nie będziemy w stanie pomóc Ci w odblokowaniu profilu.",
+          "INFO_SAME_KEY" : "Na tym urządzeniu znajduje się już konto: {0} z tym samym kluczem szyfrowania."
       }
     },
     "en_US": {
@@ -136,7 +136,8 @@
           "HINT_AUTOLOGIN_FAILED" : "Autologin failed. Please sign-in manually",
           "BTN_CLOSE" : "CLOSE <sprite=\"arrow_back\" index=0>",
           "HINT_ENTER_PIN" : "Enter the PIN displayed on the other device",
-          "INFO_ACCOUNT" : "Important Notice!\nUnlike many other platforms, Hoard is not keeping your profile on the external storage - the only copies of your credentials are stored by you, on your devices. Keep it in mind when you choose the password for your account. Keep it safe as there is no way to unlock your account if you lose your password."
+          "INFO_ACCOUNT" : "Important Notice!\nUnlike many other platforms, Hoard is not keeping your profile on the external storage - the only copies of your credentials are stored by you, on your devices. Keep it in mind when you choose the password for your account. Keep it safe as there is no way to unlock your account if you lose your password.",
+          "INFO_SAME_KEY" : "There is already the account with same encryption key under the user name {0}"
 
       }
     }
