@@ -2,11 +2,11 @@
 
 Hi and hello to Hoard Overlay Unity package homepage.
 
-## [API](https://hoard.exchange/hoard-unity-overlay)
-If you need, all API reference is available under this link. 
+## [API](https://hoard.exchange/hoard-overlay-unity)
+If you need, all API reference is available under this [link](https://hoard.exchange/hoard-overlay-unity). 
 
 ## Offline documentation and API
-You can find the offline docs after downloading the page under ./docs/index.html
+You can find the offline docs after downloading the repository. Just open the page under ./docs/index.html in the folder cloned directory
 
 ## What is Hoard Overlay ##
 
@@ -84,6 +84,7 @@ You can find more information on the project [Github](https://github.com/hoardex
 
 ## Email us ##
 
-Contact as via [email](mailto:hello@hoard.exchange)
+Contact as via [email](mailto:techsupport@hoard.exchange)
 
-## Check our [website](https://www.hoard.exchange/) ##
+## Hoard Website Website ##
+If you want to learn more about unity project check our [website](https://hoard.exchange) 
