@@ -25,18 +25,18 @@ namespace Hoard.MVC.Unity
             Path.Combine(Application.persistentDataPath, "Hoard", "Profiles");
         private void Awake()
         {
+            var storagePath =
+#if UNITY_STANDALONE_WIN
+                ProfilesManagement.WINDOWS_PROFILES_PATH;
+#elif UNITY_STANDALONE_LINUX
+            ProfilesManagement.LINUX_PROFILES_PATH;
+#else
+            Path.Combine(Application.persistentDataPath, "Hoard", "Profiles");
+#endif
             // Singletons initialization
             new HoardSettings(new UnitySettingsPersistency());
-      #if UNITY_STANDALONE_WIN
-            ProfilesManagement.CreateSingleton(ProfilesManagement.WINDOWS_PROFILES_PATH);
-      #elif UNITY_STANDALONE_LINUX
-            //ProfilesManagement.CreateSingleton(UNIVERSAL_UNITY_PATH);
-             ProfilesManagement.CreateSingleton(ProfilesManagement.LINUX_PROFILES_PATH);
-      #else
-            ProfilesManagement.CreateSingleton(UNIVERSAL_UNITY_PATH);
-
-      #endif
-            CredentialsStorage.InitializeStorage();
+            ProfilesManagement.CreateSingleton(storagePath);
+            CredentialsStorage.InitializeStorage(storagePath);
 
         }
 

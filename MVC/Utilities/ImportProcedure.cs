@@ -184,6 +184,7 @@ namespace Hoard.MVC
                 {
                     Navigation.Open(new RenameUser(name, x =>
                     {
+                        profile["name"] = x;
                         ProfilesManagement.Instance.ReceiveProfile(x, adress, profile.ToString());
                         FinishImport();
                     }));
