@@ -68,7 +68,8 @@
           "ACTION_UNDERSTAND" : "Zrozumiał(a)em <sprite=\"arrow_next\" index=0>",
           "INFO_ACCOUNT" : "Ważna Informacja!\nHoard w przeciwieństwie od innych platform nie przechowuje Twoich danych do logowania w żaden sposób. Twój chroniony hasłem profil jest przechowywany na twoich urządzeniach i nie istnieje żadna metoda odzyskania konta lub hasła. Pamiętaj o tym wybierając hasło! Jeśli je stracisz nie będziemy w stanie pomóc Ci w odblokowaniu profilu.",
           "INFO_SAME_KEY" : "Na tym urządzeniu znajduje się już konto: {0} z tym samym kluczem szyfrowania.",
-          "ACTION_RENAME": "Zmień"
+          "ACTION_RENAME": "Zmień",
+          "ACTION_CHANGE": "Zmień"
       }
     },
     "en_US": {
@@ -139,7 +140,8 @@
           "HINT_ENTER_PIN" : "Enter the PIN displayed on the other device",
           "INFO_ACCOUNT" : "Important Notice!\nUnlike many other platforms, Hoard is not keeping your profile on the external storage - the only copies of your credentials are stored by you, on your devices. Keep it in mind when you choose the password for your account. Keep it safe as there is no way to unlock your account if you lose your password.",
           "INFO_SAME_KEY" : "Account {0} has exactly same encryption key",
-          "ACTION_RENAME": "Rename"
+          "ACTION_RENAME": "Rename",
+          "ACTION_CHANGE": "Change"
 
       }
     }
