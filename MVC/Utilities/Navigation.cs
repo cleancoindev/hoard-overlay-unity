@@ -20,14 +20,9 @@ namespace Hoard.MVC
         private static Stack<IHoardViewController> stackedControlers = new Stack<IHoardViewController>();
 
         /// <summary>
-        /// In modal mode only the view that was opened in this mode can go back or open next controller
+        /// If set to true the view should not be closed using global back input. We expect action from the user
         /// </summary>
-        public static bool ModalView { get => modalControler != null; }
-
-        private static IHoardViewController modalControler;
-
-        private static bool CanPassModalLock(IHoardViewController controler)
-            => ModalView ? controler == modalControler : true;
+        public static bool ModalView { get; private set; }
 
         /// <summary>
         ///   Currently opened controller at the top of the controller stack
@@ -35,20 +30,11 @@ namespace Hoard.MVC
         public static IHoardViewController CurrentController => stackedControlers.SafePeek();
 
         /// <summary>
-        ///   Open controller in the modal mode
-        /// </summary>
-        public static void OpenControlerModal(IHoardViewController controler)
-        {
-            controler = GetCompleteControler(controler);
-            Open(controler);
-            modalControler = controler;
-        }
-
-        /// <summary>
         ///   Open and show new controller to the user
         /// </summary>
-        public static void Open(IHoardViewController controler)
+        public static void Open(IHoardViewController controler, bool modalView = false)
         {
+            ModalView = modalView;
             controler = GetCompleteControler(controler);
             controler.Open();
             controler.Enable();
@@ -89,8 +75,7 @@ namespace Hoard.MVC
                 return;
             }
             var view = stackedControlers.Pop();
-            view.Disable();
-            view.Close();
+            view.CloseAndDisable();
         }
 
         /// <summary>
@@ -135,6 +120,8 @@ namespace Hoard.MVC
         private static void CloseAndDisable(this IHoardViewController controler)
         {
             if (controler == null) return;
+            // Clearing the flag.
+            ModalView = false;
             controler.Disable();
             controler.Close();
         }

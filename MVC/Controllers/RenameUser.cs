@@ -1,6 +1,7 @@
 ﻿using System;
 using Hoard.ProfileUtilities;
 using Hoard.MVC.Utilities;
+using System.Linq;
 
 namespace Hoard.MVC
 {
@@ -27,13 +28,14 @@ namespace Hoard.MVC
 
         public override void Open()
         {
-            NewUserName = new CredentialInputValidator(x => CredentialInputValidator.StandardLengthValidator(x) && x != CurrentUserName);
+            NewUserName = new CredentialInputValidator(x =>
+            CredentialInputValidator.StandardLengthValidator(x)
+                && !ProfilesManagement.Instance.AvailableProfileNames.Any(y => x == y.userName)
+            );
             base.Open();
         }
 
         public string CurrentUserName { get; }
-
-        private readonly IProfilesManagement profileManagement;
 
         public void RequestNameChange()
         {
