@@ -1,6 +1,7 @@
 ﻿using System;
 using Hoard.ProfileUtilities;
 using Hoard.MVC.Utilities;
+using System.Linq;
 
 namespace Hoard.MVC
 {
@@ -27,7 +28,10 @@ namespace Hoard.MVC
 
         public override void Open()
         {
-            NewUserName = new CredentialInputValidator(x => CredentialInputValidator.StandardLengthValidator(x) && x != CurrentUserName);
+            NewUserName = new CredentialInputValidator(x =>
+            CredentialInputValidator.StandardLengthValidator(x)
+                && profileManagement.AvailableProfileNames.Any(y => x == y.userName)
+            );
             base.Open();
         }
 
