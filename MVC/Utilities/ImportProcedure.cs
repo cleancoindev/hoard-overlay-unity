@@ -13,14 +13,14 @@ namespace Hoard.MVC
     public class ImportProcedure : Procedure
     {
         /// <summary>
-        ///   Provide the input pin values 
+        ///   Provide the input pin values
         /// </summary>
         public override void ProvideInput(string input)
             => ImportPIN.Value = input;
 
         public ImportProcedure()
         {
- // Hex value regex digits + (a::f)
+            // Hex value regex digits + (a::f)
             var hexRegex = new Regex("^[0-9a-fA-F]{8}$");
             ImportPIN = new CredentialInputValidator((x) => hexRegex.IsMatch(x));
             State = TransferState.Ready;
@@ -178,7 +178,7 @@ namespace Hoard.MVC
                 var sameAccount = ProfilesManagement.Instance.AvailableProfileNames.FirstOrDefault(x => x.ID.ToString() == adress);
                 if (sameAccount != null)
                 {
-                    Navigation.Open(new Information(string.Format("INFO_SAME_KEY".Translated(),sameAccount.userName) , () => {Navigation.GoBack();}));
+                    Navigation.Open(new Information(string.Format("INFO_SAME_KEY".Translated(), sameAccount.userName), () => { Navigation.GoBack(); }));
                 }
                 else if (ProfilesManagement.Instance.AvailableProfileNames.Any(x => x.userName == name))
                 {
@@ -187,7 +187,7 @@ namespace Hoard.MVC
                         profile["name"] = x;
                         ProfilesManagement.Instance.ReceiveProfile(x, adress, profile.ToString());
                         FinishImport();
-                    }));
+                    }), true);
                 }
                 else
                 {

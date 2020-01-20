@@ -11,7 +11,8 @@ namespace Hoard.MVC.Unity
         public string buttonName;
 
         private bool cancelThisFrame;
-        void Update()
+
+        private void Update()
         {
             if (Input.GetKeyDown((BackKeyCode)) ||
                 (!string.IsNullOrEmpty(buttonName) && Input.GetButtonDown(buttonName)))
@@ -20,6 +21,9 @@ namespace Hoard.MVC.Unity
 
         private void Back()
         {
+            // We don't close modal views form Global Back
+            if (Navigation.ModalView) return;
+
             if (cancelThisFrame) return;
             cancelThisFrame = true;
             Navigation.GoBack();

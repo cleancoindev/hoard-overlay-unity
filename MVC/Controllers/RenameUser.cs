@@ -30,14 +30,12 @@ namespace Hoard.MVC
         {
             NewUserName = new CredentialInputValidator(x =>
             CredentialInputValidator.StandardLengthValidator(x)
-                && profileManagement.AvailableProfileNames.Any(y => x == y.userName)
+                && !ProfilesManagement.Instance.AvailableProfileNames.Any(y => x == y.userName)
             );
             base.Open();
         }
 
         public string CurrentUserName { get; }
-
-        private readonly IProfilesManagement profileManagement;
 
         public void RequestNameChange()
         {
