@@ -37,6 +37,11 @@ namespace Hoard.MVC.Unity
             if (button.interactable) OnBeingSelected();
         }
 
+        private void Awake()
+        {
+            myCanvas = myCanvas ?? GetComponent<Canvas>();
+        }
+
         protected void Start()
         {
             startSortingOrder = myCanvas.sortingOrder;

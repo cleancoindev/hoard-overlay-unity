@@ -44,6 +44,8 @@ namespace Hoard.MVC.Unity
 
         protected override void OnEnable()
         {
+            base.OnEnable();
+
             if (autoInitialize)
             {
                 if (!Initialized) Initialize();
