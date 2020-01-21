@@ -31,7 +31,7 @@ The example overlay can be used out of the box with
 
 ### Platforms ###
 
-This package is intended for Unity.2018+ with .Net4.x enabled. Code will work on following platforms:
+This package is intended for Unity.2019+ with .Net4.x enabled. Code will work on following platforms:
 1. Windows 
 2. Linux
 3. Android 7+ 

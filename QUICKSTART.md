@@ -1,5 +1,5 @@
 # Prerequisites
-Hoard Overlay runs on Unity 2018 or newer. It also depends on the TextMeshPro package. All other dependencies are included in the package.
+Hoard Overlay runs on Unity 2019 or newer. It also depends on the TextMeshPro package. All other dependencies are included in the package.
 
 ## Installing TextMeshPro
 To install this package 
