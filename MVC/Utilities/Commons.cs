@@ -16,8 +16,6 @@ namespace Hoard.MVC
         /// <summary>
         /// Ctor.
         /// </summary>
-        /// <param name="observed"> Object to boserve</param>
-        /// <param name="refreshAtStart">Should object call all passed hadlers at start</param>
         public PropertyChangeHandler(T observed) : base()
         {
             this.observed = observed;

@@ -24,7 +24,7 @@ namespace Hoard.ProfileUtilities
     /// </summary>
     /// <remarks>
     ///   <para>
-    ///     Follows Singleton pattern. Accesible by @Instance static property
+    ///     Follows Singleton pattern. Accesible by Instance static property
     ///   </para>
     ///   <para>
     ///     Please be reminded that storing the users password on the local storage can be dangerous.

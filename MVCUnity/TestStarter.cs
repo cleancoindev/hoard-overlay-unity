@@ -11,7 +11,7 @@ namespace Hoard.MVC.Unity
     /// </summary>
     /// <remarks>
     ///   <para>
-    ///     If you want to override debug initialization of unity overlay change the @Update() method
+    ///     If you want to override debug initialization of unity overlay change the Update() method
     ///   </para>
     ///   <para>
     ///     It's a good practice to set early initialization of the start scripts

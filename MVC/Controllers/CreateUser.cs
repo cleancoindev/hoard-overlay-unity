@@ -113,7 +113,7 @@ namespace Hoard.MVC
         }
 
         /// <summary>
-        ///   Sets the observer internal state according to the current @Observed status
+        ///   Sets the observer internal state according to the current Observed status
         /// </summary>
         public CredentialsObserver Setup()
         {
@@ -142,7 +142,7 @@ namespace Hoard.MVC
         /// </summary>
         /// <remarks>
         ///   <para>
-        ///     Reverse of the @onValidValue
+        ///     Reverse of the onValidValue
         ///   </para>
         /// </remarks>
         public Action<string> onInvalidValue;

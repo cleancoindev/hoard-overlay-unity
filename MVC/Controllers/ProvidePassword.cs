@@ -33,10 +33,8 @@ namespace Hoard.MVC
         }
 
         /// <summary>
-        ///   ProvidePassword
+        /// ProvidePassword
         /// </summary>
-        /// <param name="name"> Profile name of the user that request login</params>
-        /// <param name="onLogin">Callback invoked after Hoard service finish attempt to decode profile</param>
         public ProvidePassword(string name, Action<bool, string> onLogin)
         {
             OnLogin = onLogin;

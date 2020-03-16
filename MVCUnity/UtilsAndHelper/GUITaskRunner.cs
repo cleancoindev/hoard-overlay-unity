@@ -4,7 +4,6 @@ namespace Hoard.MVC.Unity
 {
     /// <summary>
     /// Gives the task runner an update context
-    /// <see name="TaskRunner"/>
     /// </summary>
     public class GUITaskRunner : MonoBehaviour
     {
