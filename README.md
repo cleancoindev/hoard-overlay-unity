@@ -1,6 +1,6 @@
 # Intro #
 
-Hi and hello to Hoard Overlay Unity package homepage.
+Hi and hello from Hoard Overlay Unity package homepage.
 
 ## [API](https://hoard.exchange/hoard-overlay-unity)
 If you need, all API reference is available under this [link](https://hoard.exchange/hoard-overlay-unity). 
