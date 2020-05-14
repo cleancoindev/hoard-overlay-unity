@@ -24,7 +24,12 @@ namespace Hoard.MVC
         public void NotifyChange([CallerMemberName]string name = default)
             => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
 
-        protected string WhisperAddress = "ws://ws.eth-rpc.hoard.exchange";
+        protected string WhisperAddress = "ws://localhost";
+
+        public Procedure(string whisperURL)
+        {
+            this.WhisperAddress = whisperURL;
+        }
 
         protected AccountSynchronizer sync;
 
@@ -67,7 +72,7 @@ namespace Hoard.MVC
         public float TimeOutCount { get; protected set; }
 
         /// <summary>
-        ///  Time before procedure will shutdown and reset. 
+        ///  Time before procedure will shutdown and reset.
         /// </summary>
         public const float TimeOutMax = 90f;
 
@@ -132,42 +137,11 @@ namespace Hoard.MVC
             }
         }
 
-        protected void PingAndConnect()
-        {
-            var whisper = WhisperAddress.Replace("ws://", "");
-            var waiter = new AutoResetEvent(true);
-            Ping ping = new Ping();
-            ping.PingCompleted += PingCallback;
-            PingOptions opt = new PingOptions();
-            byte[] data = Encoding.ASCII.GetBytes("TestPing");
-            try
-            {
-                ping.SendAsync(whisper, 400, data, opt, waiter);
-            }
-            catch (System.Exception e)
-            {
-                State = TransferState.Error;
-                ErrorCallbackProvider.ReportError("Server is not responding. Probably network issue: \n" + e.ToString());
-            }
-        }
-
         protected void StopTimer()
         {
             TimeOutCount = 0f;
             t.Elapsed -= ElapsedEventHandler;
             t.Stop();
-        }
-
-        private void PingCallback(object sender, PingCompletedEventArgs a)
-        {
-            if (a.Error != null)
-            {
-                TaskRunner.ExecuteDuringNextPool(() => State = TransferState.Error);
-            }
-            else
-            {
-                TaskRunner.ExecuteDuringNextPool(Connect);
-            }
         }
 
         public abstract void Connect();

@@ -5,6 +5,7 @@ using Hoard.Utils;
 using Hoard.ProfileUtilities;
 using System.Text;
 using Hoard.MVC.Utilities;
+using System;
 
 namespace Hoard.MVC
 {
@@ -13,16 +14,16 @@ namespace Hoard.MVC
     /// </summary>
     public class ExportProcedure : Procedure
     {
-        Profile profile;
+        private Profile profile;
 
         public override void ProvideInput(string input) =>
             ConfirmPIN.Value = input;
 
-        ProfileDescription transferProfile;
+        private ProfileDescription transferProfile;
 
-        AccountSynchronizerKeeper SyncKeeper {get => sync as AccountSynchronizerKeeper;}
+        private AccountSynchronizerKeeper SyncKeeper { get => sync as AccountSynchronizerKeeper; }
 
-        AccountSynchronizerKeeper CreateSync(string address)
+        private AccountSynchronizerKeeper CreateSync(string address)
         {
             return new AccountSynchronizerKeeper(new SystemWebSocketProvider(address));
         }
@@ -42,7 +43,7 @@ namespace Hoard.MVC
             }
         }
 
-        public ExportProcedure(ProfileDescription profile)
+        public ExportProcedure(ProfileDescription profile, string whisperURL) : base(whisperURL)
         {
             transferProfile = profile ??
                 throw new System.ArgumentNullException("profile for transfer is required");
@@ -69,10 +70,7 @@ namespace Hoard.MVC
             return Encoding.UTF8.GetBytes(accountsData);
         }
 
-
-
-        string ParseToPin(byte[] publicKey) => publicKey.ToHex(false).Substring(0, 8).ToUpper();
-
+        private string ParseToPin(byte[] publicKey) => publicKey.ToHex(false).Substring(0, 8).ToUpper();
 
         //NOTE that could be done as an iterator
         public override void Proceed()
@@ -82,17 +80,18 @@ namespace Hoard.MVC
                 case TransferState.Timeout:
                     State = TransferState.Ready;
                     break;
-                    // Wait for user set everything on the oteher device
-                    // Then connect
+                // Wait for user set everything on the oteher device
+                // Then connect
                 case TransferState.Error:
                     State = TransferState.Ready;
                     break;
+
                 case TransferState.Ready:
                     TimeOutCount = 0f;
-                    PingAndConnect();
+                    Connect();
                     break;
 
-                    // Aquire the confirmation PIN
+                // Aquire the confirmation PIN
                 case TransferState.InputPIN:
                     // Wait for user to put the pin in the other device
                     break;
@@ -120,15 +119,19 @@ namespace Hoard.MVC
             if (!WaitingForUserProceed) return;
             WaitingForUserProceed = false;
             cancelToken = new System.Threading.CancellationTokenSource();
-            string WhisperAddress = "ws://ws.eth-rpc.hoard.exchange";
-            sync = CreateSync(WhisperAddress);
+            var url = new UriBuilder(WhisperAddress);
+            url.Port = 8546;
+            sync = CreateSync(url.Uri.ToString());
             PIN = ParseToPin(sync.PublicKey);
             State = TransferState.InputPIN;
             StartTimer();
             sync.Initialize(PIN, cancelToken.Token)
                 .ContinueGUISynch(x =>
                 {
-                    if (x.IsFaulted || x.IsCanceled) return;
+                    if (x.IsFaulted || x.IsCanceled)
+                    {
+                        Hoard.ErrorCallbackProvider.ReportError("Failed sync initialization " + x.Exception);
+                    }
                     ErrorCallbackProvider.ReportInfo("Export: Initialize cofirmed");
                     State = TransferState.InputPIN;
                     GetHashReponse();

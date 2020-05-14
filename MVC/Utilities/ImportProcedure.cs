@@ -4,6 +4,7 @@ using Hoard.ProfileUtilities;
 using Newtonsoft.Json.Linq;
 using Hoard.MVC.Utilities;
 using System.Linq;
+using System;
 
 namespace Hoard.MVC
 {
@@ -18,7 +19,7 @@ namespace Hoard.MVC
         public override void ProvideInput(string input)
             => ImportPIN.Value = input;
 
-        public ImportProcedure()
+        public ImportProcedure(string whisperAddress) : base(whisperAddress)
         {
             // Hex value regex digits + (a::f)
             var hexRegex = new Regex("^[0-9a-fA-F]{8}$");
@@ -64,7 +65,7 @@ namespace Hoard.MVC
 
                 case TransferState.Ready:
                     TimeOutCount = 0f;
-                    PingAndConnect();
+                    Connect();
                     break;
 
                 case TransferState.InputPIN:
@@ -91,7 +92,10 @@ namespace Hoard.MVC
         public override void Connect()
         {
             cancelToken = new System.Threading.CancellationTokenSource();
-            sync = new AccountSynchronizerApplicant(new SystemWebSocketProvider(WhisperAddress));
+            var url = new UriBuilder(WhisperAddress);
+            url.Port = 8546;
+            ErrorCallbackProvider.ReportError(string.Format("url {0}, {1}", url.Uri.ToString(), url.Port));
+            sync = new AccountSynchronizerApplicant(new SystemWebSocketProvider(url.Uri.ToString()));
             State = TransferState.InputPIN;
         }
 

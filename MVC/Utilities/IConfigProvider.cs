@@ -3,8 +3,8 @@ namespace Hoard.MVC
     /// <summary>
     ///   Interface implemented by objects that can provide correct hoard service options
     /// </summary>
-    public interface IHoardOptionsProvider
+    public interface IHoardConfigProvider<T> where T : HoardServiceConfig
     {
-        HoardServiceOptions GetHoardServiceOptions();
+        T GetHoardServiceOptions();
     }
 }

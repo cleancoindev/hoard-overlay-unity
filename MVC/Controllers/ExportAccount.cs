@@ -77,13 +77,13 @@ namespace Hoard.MVC
         PropertyChangeHandler<ExportProcedure> procedureHandler;
 
         /// <summary>
-        ///   Ctor. 
+        ///   Ctor.
         /// </summary>
-        public ExportAccount(ProfileDescription name)
+        public ExportAccount(ProfileDescription name, string whisperURL)
         {
             UserName = name;
             Title = "TITLE_EXPORT_ACCOUNT".Translated() + UserName.userName;
-            Procedure = new ExportProcedure(UserName);
+            Procedure = new ExportProcedure(UserName, whisperURL);
             procedureHandler = new PropertyChangeHandler<ExportProcedure>(Procedure)
             {
                 {nameof(ExportProcedure.State), x=> SetInfo(x.State)},
@@ -151,7 +151,6 @@ namespace Hoard.MVC
                     Hint = "HINT_EXPORT_READY".Translated();
                     ActionDescription = "ACTION_DONE".Translated();
                     break;
-
 
                 case ExportProcedure.TransferState.InputPIN:
                     ExportPIN = Procedure.PIN;

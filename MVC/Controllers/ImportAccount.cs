@@ -60,10 +60,10 @@ namespace Hoard.MVC
         /// <summary>
         ///   Ctor
         /// </summary>
-        public ImportAccount()
+        public ImportAccount(string whisperURL)
         {
             Title = "TITLE_IMPORT".Translated();
-            Procedure = new ImportProcedure();
+            Procedure = new ImportProcedure(whisperURL);
             procedureHandler = new PropertyChangeHandler<ImportProcedure>(Procedure)
             {
                 {nameof(Procedure.State), x=> SetInfo(x.State)},
@@ -72,8 +72,6 @@ namespace Hoard.MVC
             };
             procedureHandler.Setup();
         }
-
-
 
         private bool inputPinInteractive;
 
@@ -89,6 +87,7 @@ namespace Hoard.MVC
                 NotifyChange();
             }
         }
+
         private bool inputPinVisiable;
 
         /// <summary>
@@ -125,14 +124,14 @@ namespace Hoard.MVC
         {
             switch (state)
             {
-
                 case ImportProcedure.TransferState.Timeout:
                     ConfimationPIN = null;
                     InputPINInteractive = true;
                     InputPINVisiable = false;
-                    Hint =string.Format("HINT_TIMEOUT".Translated() , ExportProcedure.TimeOutMax);
+                    Hint = string.Format("HINT_TIMEOUT".Translated(), ExportProcedure.TimeOutMax);
                     ActionDescription = "ACTION_RESET".Translated();
                     break;
+
                 case ImportProcedure.TransferState.Error:
                     ConfimationPIN = null;
                     InputPINInteractive = true;
