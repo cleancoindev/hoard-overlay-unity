@@ -99,10 +99,10 @@ namespace Hoard.MVC.Unity
 
         public void OpenImport()
         {
-            Navigation.Open(new ImportAccount());
+            Navigation.Open(new ImportAccount(HoardServiceInitializer.Instance.HoardConfig.WhisperAddress));
         }
 
-        public void OpenCreateUser()=>
+        public void OpenCreateUser() =>
             ContextControler.StartCreateNew();
 
         private void RefreshProfiles(IEnumerable<ProfileDescription> list)

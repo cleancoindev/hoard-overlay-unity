@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using System.Threading.Tasks;
+using Hoard.MVC.Utilities;
 
 namespace Hoard.MVC.Unity
 {
@@ -13,9 +14,10 @@ namespace Hoard.MVC.Unity
         ///   Reference to the hoard configuration
         /// </summary>
         public TextAsset hoardConfig;
-        public bool Initialized {get; private set;}
 
-        public static HoardServiceInitializer Instance {get; private set;}
+        public bool Initialized { get; private set; }
+
+        public static HoardServiceInitializer Instance { get; private set; }
 
         private void Awake()
         {
@@ -28,12 +30,16 @@ namespace Hoard.MVC.Unity
 
             Instance = this;
         }
+
+        public HoardServiceConfig HoardConfig { get; private set; }
+
         public void Start()
         {
-            var config = HoardServiceConfig.LoadFromStream(hoardConfig.text);
-            var clientURL = ((EthereumClientConfig)config.BCClient).ClientUrl;
+            HoardConfig = new HoardConfigLoader(hoardConfig).GetHoardServiceOptions();
+
+            var clientURL = ((EthereumClientConfig)HoardConfig.BCClient).ClientUrl;
             var ethClient = new EthereumClientOptions(new UnityRpcClientAsync(new Uri(clientURL)));
-            var options = new HoardServiceOptions(config, ethClient);
+            var options = new HoardServiceOptions(HoardConfig, ethClient);
             HoardService.Instance.Initialize(options)
                 .ContinueGUISynch(AfterInit);
         }
@@ -57,11 +63,9 @@ namespace Hoard.MVC.Unity
         }
     }
 
-
     [System.Serializable]
     public class WhisperConfig : HoardServiceConfig
     {
         public string WsURL;
     }
 }
-

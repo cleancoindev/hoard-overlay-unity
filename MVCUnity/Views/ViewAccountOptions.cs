@@ -58,13 +58,14 @@ namespace Hoard.MVC.Unity
 
         public void OnExportClicked()
         {
-            Navigation.Open(new ExportAccount(new ProfileDescription(ContextControler.Profile)));
+            Navigation.Open(new ExportAccount(new ProfileDescription(ContextControler.Profile),
+                HoardServiceInitializer.Instance.HoardConfig.WhisperAddress));
         }
 
         public void OnChangePasswordClicked()
         {
             Navigation.Open(new Information("INFO_ACCOUNT".Translated(),
-                                ()=>Navigation.Open(new ChangePassword(ContextControler.Profile))));
+                                () => Navigation.Open(new ChangePassword(ContextControler.Profile))));
         }
 
         public void OnSavePasswordClicked()
